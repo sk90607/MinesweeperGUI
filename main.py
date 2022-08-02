@@ -45,18 +45,6 @@ center_frame = Frame(
 )
 center_frame.place(x=utils.width_perct(25),y=utils.height_perct(25))
 
-# btn1 = Button(
-#     center_frame,
-#     bg='blue',
-#     text='First Button'
-# )
-# btn1.place(x=0,y=0)
-
-# c1 = Cell()
-# c1.create_btn_object(center_frame)
-# c1.cell_btn_object.grid(                     #it will be problem using place(x,y) as we
-#      column=0, row=0                         #have to decide x and y value accordingly for each cell
-# )                                            #grid help us providing row and column format
 
 for x in range(settings.GRID_SIZE):
     for y in range(settings.GRID_SIZE):
